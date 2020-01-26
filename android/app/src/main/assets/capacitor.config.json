@@ -1,0 +1,8 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "capacitor-cordova-http",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "cordova": {}
+}
