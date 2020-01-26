@@ -1,0 +1,7 @@
+{
+  "name": "capacitor-cordova-http",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
