@@ -1,16 +1,21 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-    <ion-buttons slot="primary">
-      <ion-button>
-        <ion-icon name="bookmark" color="primary"></ion-icon>
-      </ion-button>
-    </ion-buttons>
-  </ion-toolbar>
+	<ion-toolbar>
+		<ion-title>
+			Ionic Blank
+		</ion-title>
+		<ion-buttons slot="primary">
+			<ion-button>
+				<ion-icon name="bookmark" color="primary"></ion-icon>
+			</ion-button>
+		</ion-buttons>
+	</ion-toolbar>
 </ion-header>
 
 <ion-content>
-  <ion-button (click)="onPostData(detail)">post data</ion-button>
+	<ion-button (click)="onPostData(detail)">post data</ion-button>
+	<ion-button (click)="showAlert()">Show Alert</ion-button>
+	<ion-button (click)="showConfirm()">Show Confirm</ion-button>
+	<ion-button (click)="showPrompt()">Show Prompt</ion-button>
+	<ion-button (click)="showActions()">Show Action</ion-button>
+	<ion-button (click)="openUrl()">Open URL</ion-button>
 </ion-content>
